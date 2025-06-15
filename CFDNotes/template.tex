@@ -1,0 +1,33 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\title{\Huge{CFD Notes}\\}
+\author{\huge{Michael Dizon}}
+\date{}
+
+\begin{document}
+
+\maketitle
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+\chapter{Fluid Dynamics | Aerodynamics}
+\textbf{Based on Fundamentals of Aerodynamics by Anderson}
+\section{Fundamental Principles}
+\subsection{Aerodynamic Forces and Moments}
+Aerodynamics forces and moments on a body are only due to two main sources
+\begin{enumerate}
+    \item Pressure Distribution: $\rho$
+    \item Shear Stress Distribution: $\tau$
+\end{enumerate}
+Surface Pressure is normal, think negative flux, while shear stress is tangential to the surface cause
+by the friction between the body and the air.
+
+
+\end{document}
